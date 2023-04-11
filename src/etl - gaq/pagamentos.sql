@@ -5,10 +5,6 @@
 
 -- COMMAND ----------
 
-SELECT * FROM silver.olist.pagamento_pedido
-
--- COMMAND ----------
-
 WITH tb_join_cte AS (
 
 SELECT t2.*,
